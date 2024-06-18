@@ -1,0 +1,9 @@
+{
+	"name": "application",
+	"version": "0.0.0",
+	"main": "src/index.ts",
+	"dependencies": {
+		"domain": "workspace:*"
+	},
+	"devDependencies": {}
+}

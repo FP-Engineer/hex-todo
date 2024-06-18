@@ -1,0 +1,17 @@
+{
+	"name": "hex-todo",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": [
+		"domain",
+		"application",
+		"infrastructure"
+	],
+	"devDependencies": {
+		"typescript": "^4.9.5"
+	},
+	"scripts": {
+		"build": "pnpm run build -r",
+		"test": "pnpm run test -r"
+	}
+}

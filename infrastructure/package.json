@@ -1,0 +1,10 @@
+{
+	"name": "infrastructure",
+	"version": "0.0.0",
+	"main": "src/index.ts",
+	"dependencies": {
+		"application": "workspace:*",
+		"domain": "workspace:*"
+	},
+	"devDependencies": {}
+}
