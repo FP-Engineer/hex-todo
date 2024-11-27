@@ -3,7 +3,7 @@
 	  "outDir": "./dist",
 	  "rootDir": "./",
 	  "module": "commonjs",
-	  "target": "es5",
+	  "target": "ESNext",
 	  "strict": true,
 	  "esModuleInterop": true,
 	  "skipLibCheck": true
