@@ -1,0 +1,14 @@
+@import 'https://unpkg.com/open-props';
+@import 'https://unpkg.com/open-props/normalize';
+@import 'https://unpkg.com/open-props/buttons';
+
+body {
+  display: grid;
+  justify-content: center;
+  background-image: var(--gradient-23);
+  font-size: var(--font-size-fluid-1);
+}
+
+:root {
+  view-transition-name: none;
+}
