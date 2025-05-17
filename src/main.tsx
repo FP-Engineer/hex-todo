@@ -3,7 +3,7 @@ import './index.css';
 import { App } from './app';
 import { StrictMode } from 'react';
 
-createRoot(root).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
   </StrictMode>

@@ -8,7 +8,7 @@ export function useTodoList(...ids: string[]) {
   const refresh = useCallback(async () => {
     const todos = await query(...ids);
     setTodos({ todos });
-  }, []);
+  }, [ids]);
 
   return useSyncExternalStore(
     (onStorechange) => {

@@ -16,7 +16,7 @@ declare global {
   interface TodoEventTarget extends EventTarget {
     addEventListener<K extends keyof TodoEventMap>(
       type: K,
-      listener: (this: EventTarget, ev: TodoEventMap[K]) => any,
+      listener: (this: EventTarget, ev: TodoEventMap[K]) => unknown,
       options?: boolean | AddEventListenerOptions
     ): void;
     addEventListener(
@@ -26,7 +26,7 @@ declare global {
     ): void;
     removeEventListener<K extends keyof TodoEventMap>(
       type: K,
-      listener: (this: EventTarget, ev: TodoEventMap[K]) => any,
+      listener: (this: EventTarget, ev: TodoEventMap[K]) => unknown,
       options?: boolean | EventListenerOptions
     ): void;
     removeEventListener(

@@ -27,7 +27,7 @@ export function AddTodo({ className }: AddTodoProps) {
 
       dispatchCreateTodo(title);
     },
-    []
+    [dispatchCreateTodo]
   );
 
   return (
