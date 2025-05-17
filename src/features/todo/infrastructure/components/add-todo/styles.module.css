@@ -1,0 +1,6 @@
+form {
+  display: flex;
+  height: fit-content;
+  gap: var(--size-3);
+  font: var(--font-monospace-code);
+}

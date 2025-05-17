@@ -1,0 +1,15 @@
+li {
+  all: revert;
+  view-transition-name: attr(id type(<custom-ident>), none);
+  view-transition-class: todo;
+}
+
+li:first-of-type {
+  view-transition-class: new-todo;
+}
+
+label {
+  display: flex;
+  align-items: baseline;
+  gap: var(--size-1);
+}

@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  gap: var(--size-3);
+  padding-block-start: var(--size-5);
+}
+
+h1 {
+  font-size: var(--font-size-fluid-3);
+  grid-area: title;
+}
+
+.actions {
+  grid-area: action;
+}
+
+.list {
+  grid-area: list;
+}

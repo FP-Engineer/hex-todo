@@ -1,0 +1,7 @@
+::view-transition-new(.todo) {
+  animation: var(--animation-slide-in-down);
+}
+
+::view-transition-group(.new-todo) {
+  animation: var(--animation-fade-in);
+}
